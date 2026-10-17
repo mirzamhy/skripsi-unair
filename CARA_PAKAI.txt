@@ -1,0 +1,49 @@
+========================================
+  UNAIR Skripsi Downloader
+========================================
+
+Alat download skripsi dari repository UNAIR (ir.unair.ac.id)
+yang tidak bisa di-download langsung, lalu simpan jadi 1 file PDF.
+
+
+-------- CARA PAKAI (TIDAK PERLU INSTALL APA PUN) --------
+
+1. Double-click file:  UNAIR Skripsi Downloader.exe
+   (Kalau muncul peringatan Windows SmartScreen:
+    klik "More info" lalu "Run anyway". Aman, ini cuma karena
+    aplikasi belum bersertifikat digital berbayar.)
+
+2. Buka skripsi yang mau diunduh di browser sampai muncul
+   tampilan buku (flipbook). Copy alamat/link-nya dari address bar.
+   Contoh link:
+   https://ir.unair.ac.id/uploaded_files/temporary/DigitalCollection/XXXXXX==/index.html
+
+3. Tempel (paste) link itu ke kolom "Link skripsi".
+
+4. Klik "Deteksi judul" -> nama file otomatis terisi dari judul
+   skripsi. Boleh diedit sesukamu.
+
+5. Klik "Pilih..." untuk memilih folder tempat menyimpan PDF.
+
+6. Klik "Download PDF". Tunggu sampai selesai
+   (progress & log jalan). Klik "Batal" bila ingin berhenti.
+
+7. Selesai -> file PDF ada di folder yang kamu pilih.
+
+
+-------- CATATAN --------
+
+- Link skripsi bersifat sementara. Kalau error "0 halaman",
+  buka ulang skripsi di browser dan copy link terbaru.
+
+- Centang "Simpan JPG mentah juga" bila ingin gambar tiap
+  halaman terpisah, selain PDF.
+
+- Butuh koneksi internet.
+
+
+-------- UNTUK PENGGUNA PYTHON (opsional) --------
+
+Kalau punya Python dan mau jalankan dari source:
+    pip install -r requirements.txt
+    python gui_scrapper.py

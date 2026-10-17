@@ -1,0 +1,4 @@
+requests>=2.31
+pillow>=10.0
+# urllib3 ikut terpasang bersama requests
+# tkinter = bawaan Python (tidak perlu pip)

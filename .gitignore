@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Hasil build PyInstaller
+build/
+dist/
+paket_kirim/
+Unair Skripsi Downloader/
+UNAIR-Skripsi-Downloader/
+*.exe
+
+# Arsip
+*.zip
+*.rar
+
+# Hasil download & log
+*.pdf
+*_jpg/
+*.log
+
+# Folder kosong / lama
+scrapping-skripsi/
